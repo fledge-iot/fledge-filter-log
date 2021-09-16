@@ -12,7 +12,7 @@
 #include <version.h>
 
 #define FILTER_NAME "log"
-const static char *default_config = QUOTE({
+static const char *default_config = QUOTE({
 		"plugin" : {
 			"description" : "Log filter plugin",
                        	"type" : "string",
